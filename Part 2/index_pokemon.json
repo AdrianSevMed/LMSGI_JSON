@@ -1,0 +1,108 @@
+{
+    "pokemons": [
+        {
+            "id": 1,
+            "nombre": "Larvesta",
+            "tipo": ["Bicho", "Fuego"],
+            "peso": {
+                "valor": 28.8,
+                "unidad": "kg"
+            },
+            "altura": {
+                "valor": 1.1,
+                "unidad": "m"
+            },
+            "estadisticas": {
+                "velocidad": 60,
+                "fortaleza": 85,
+                "precision": 50,
+                "resistencia": 55
+            },
+            "movimientos": [
+                {
+                    "nombre": "Llamarada",
+                    "descripcion": "Un intenso torrente de fuego que quema al objetivo.",
+                    "potencia": 110,
+                    "contacto": false
+                },
+                {
+                    "nombre": "Zumbido",
+                    "descripcion": "Emite un zumbido dañino que puede reducir la defensa especial del objetivo.",
+                    "potencia": 90,
+                    "contacto": false
+                },
+                {
+                    "nombre": "Danza Aleteo",
+                    "descripcion": "El usuario baila para aumentar su ataque especial, defensa especial y velocidad.",
+                    "potencia": 0,
+                    "contacto": false
+                },
+                {
+                    "nombre": "Llama Final",
+                    "descripcion": "Un ataque de fuego que puede quemar al objetivo.",
+                    "potencia": 80,
+                    "contacto": false
+                }
+            ],
+            "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d3/latest/20230702030138/Larvesta.png?20230702030138",
+            "evoluciones": [
+                {
+                    "id": 2,
+                    "nivel_necesario": 59
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Feebas",
+            "tipo": ["Agua"],
+            "peso": {
+                "valor": 7.4,
+                "unidad": "kg"
+            },
+            "altura": {
+                "valor": 0.6,
+                "unidad": "m"
+            },
+            "estadisticas": {
+                "velocidad": 80,
+                "fortaleza": 20,
+                "precision": 15,
+                "resistencia": 55
+            },
+            "movimientos": [
+                {
+                    "nombre": "Salpicadura",
+                    "descripcion": "El usuario salpica sin causar daño.",
+                    "potencia": 0,
+                    "contacto": false
+                },
+                {
+                    "nombre": "Tacleada",
+                    "descripcion": "Una embestida física contra el objetivo.",
+                    "potencia": 40,
+                    "contacto": true
+                },
+                {
+                    "nombre": "Doble Filo",
+                    "descripcion": "Un ataque potente que también hiere al usuario.",
+                    "potencia": 120,
+                    "contacto": true
+                },
+                {
+                    "nombre": "Surf",
+                    "descripcion": "Una ola gigante que golpea a todos los Pokémon en combate.",
+                    "potencia": 90,
+                    "contacto": false
+                }
+            ],
+            "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/2/25/latest/20230629033755/Feebas.png?20230629033755",
+            "evoluciones": [
+                {
+                    "id": 4,
+                    "nivel_necesario": 20
+                }
+            ]
+        }
+    ]
+}
