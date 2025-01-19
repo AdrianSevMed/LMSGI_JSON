@@ -1,6 +1,9 @@
-<!-- En el exemple en qüestió, farè el document XML basat en una botiga de videojocs, la qual vol guardar les dades dels videojocs que ven-->
+<!-- En el exemple en qüestió, farè el document XML basat en una botiga de videojocs, 
+la qual vol guardar les dades dels videojocs que ven-->
 
-<!--En primer lloc definirem el tipus de negoci, en aquest cas serà una botiga de videojocs, i després farem les etiquetes corresponent als videojocs en qüestió, que seran els items que vendrà la botiga i dels quals volem tenir un registre de les dades.-->
+<!--En primer lloc definirem el tipus de negoci, en aquest cas serà una botiga de videojocs,
+i després farem les etiquetes corresponent als videojocs en qüestió, que seran els items que
+vendrà la botiga i dels quals volem tenir un registre de les dades.-->
 
 <BotigaDeVideojocs> 
     <videojoc> 
