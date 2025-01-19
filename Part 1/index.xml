@@ -3,18 +3,18 @@
 <!--En primer lloc definirem el tipus de negoci, en aquest cas serà una botiga de videojocs, i després farem les etiquetes corresponent als videojocs en qüestió, que seran els items que vendrà la botiga i dels quals volem tenir un registre de les dades.-->
 
 <BotigaDeVideojocs> 
-	<videojoc> 
+    <videojoc> 
         <!--Nom de l'article-->
-		<Nom>EA FC 25</Nom> 
+	    <Nom>EA FC 25</Nom> 
         <!--El seu codi identificador per si hi ha items amb noms idèntics. Aquest codi només sera vàlid per a aquest item-->
         <Codi>0172</Codi> 
         <!--Empesa que ha desenvolupat el joc-->
         <Desenvolupadora>EA Sports</Desenvolupadora> 
-		<!--Descripció del joc, amb l'atribut idioma-->
+	    <!--Descripció del joc, amb l'atribut idioma-->
         <Descripcio idioma="es">Videojoc de fútbol. Conté la gran majoria de llicències i permet jugar tant offline com online.</Descripcio> 
-		<!--Definirà el preu de l'article, tot indicant en l'atribut divisa a quina divisa fa referència-->
+	    <!--Definirà el preu de l'article, tot indicant en l'atribut divisa a quina divisa fa referència-->
         <Preu divisa="euros">69.99</Preu> 
-		<!--Gènere o categoria en la qual volem classificar el joc. Per a facilitar el fet de trobar tots es jocs d'una mateixa categoria-->
+	    <!--Gènere o categoria en la qual volem classificar el joc. Per a facilitar el fet de trobar tots es jocs d'una mateixa categoria-->
         <Categoria>Esportiu</Categoria> 
         <!--Data en la que es va llençar al mercat el joc. Tot especificant el mes i l'any.-->
         <Data> 
@@ -23,25 +23,25 @@
         </Data>
         <!--Plataformes/consoles en les quals va sortir al mercat-->
         <Plataforma>Playstation5, XboxSeries, PC</Plataforma> 
-		<!--Permetrà saber si un joc el tenim disponible a la botiga o no-->
+	    <!--Permetrà saber si un joc el tenim disponible a la botiga o no-->
         <Disponibilitat>Disponible</Disponibilitat> 
-		<!--Imatge del videojoc, per veure'l ràpidament.-->
+	    <!--Imatge del videojoc, per veure'l ràpidament.-->
         <Imatge>https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202407/18/00197581508831____4__1200x1200.jpg</Imatge> 
 	
     <!--En aquest punt es repeteixen les mateixes etiquetes i atributs del cas anterior, però canviant les dades ja que canvia el videojoc en qüestió-->
-	<videojoc>
-		<Nom lang="es">Final Fantasy XVI</Nom>
+    <videojoc>
+	    <Nom>Final Fantasy XVI</Nom>
         <Codi>0173</Codi>
         <Desenvolupadora>Square Enix</Desenvolupadora>
-		<Descripcio lang="es">Videojoc de rol, replet d'espectaculars combats amb espasses i màgia.</Descripcio>
-		<Preu divisa="euros">29.99</Preu>
-		<Categoria>Rol</Categoria>
+	    <Descripcio lang="es">Videojoc de rol, replet d'espectaculars combats amb espasses i màgia.</Descripcio>
+	    <Preu divisa="euros">29.99</Preu>
+	    <Categoria>Rol</Categoria>
         <Data>
             <Mes>06</Mes>
             <Any>2023</Any>
         </Data>
         <Plataforma>Playstation5, PC</Plataforma>
-		<Disponibilitat>Disponible</Disponibilitat>
-		<Imatge>https://m.media-amazon.com/images/I/81XfMCeJYJL._AC_UF1000,1000_QL80_.jpg</Imatge>
-	</videojoc>
+	    <Disponibilitat>Disponible</Disponibilitat>
+	    <Imatge>https://m.media-amazon.com/images/I/81XfMCeJYJL._AC_UF1000,1000_QL80_.jpg</Imatge>
+    </videojoc>
 </BotigaDeVideojocs>
